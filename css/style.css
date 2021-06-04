@@ -986,7 +986,18 @@ body .page-header {
 .hamburger-navigation .nav-menu li a:hover {
   color: #856d47;
 }
-
+.hamburger-navigation .login-menu{
+  margin-bottom: 2rem;
+}
+.golden{
+  color:#856d47;
+  transition: all 0.35s ease-in-out;
+  opacity: 1;
+  filter: none;
+}
+.golden:hover{
+  color: white;
+}
 /* HAMBURGER NAGIVATION ACTIVE */
 .hamburger-navigation-active .scroll-content {
   transform: translate3d(0px, 0px, 0px) !important;
