@@ -11,6 +11,7 @@
         $("body .hamburger-navigation").css("transition-delay", "0.6s");
         $("body .hamburger-navigation .nav-menu").css("transition-delay", "0s");
         $("body .hamburger-navigation .info-box").css("transition-delay", "0.2s");
+        $("body .hamburger-navigation .nav-user").css("transition-delay", "0.2s");
         $("body .navbar .logo").css("transition-delay", "1.2s");
         $("body .navbar .navbar-text").css("transition-delay", "1.2s");
         $("body .navbar .site-menu").css("transition-delay", "1.2s");
@@ -27,6 +28,7 @@
         $("body .hamburger-navigation").css("transition-delay", "0s");
         $("body .hamburger-navigation .nav-menu").css("transition-delay", "1.5s");
         $("body .hamburger-navigation .info-box").css("transition-delay", "1.7s");
+        $("body .hamburger-navigation .nav-user").css("transition-delay", "1.7s");
         $("body .navbar .logo").css("transition-delay", "0s");
         $("body .navbar .navbar-text").css("transition-delay", "0s");
         $("body .navbar .site-menu").css("transition-delay", "0s");
