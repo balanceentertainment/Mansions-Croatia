@@ -3521,6 +3521,15 @@ body .page-header {
   visibility: visible;
 }
 
+/* SPECIAL OFFER CAROUSEL */
+.carousel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow: scroll;
+}
+
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
   .hotel-search form .form-group {
