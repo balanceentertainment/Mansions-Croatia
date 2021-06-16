@@ -3424,13 +3424,12 @@ body .page-header {
 .signup-form{
   margin: 1rem;
   width: 100%;
-  max-width: 30rem;
+  max-width: 420px;
 }
 
 .form-group-signup{
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .form-group-signup input{
@@ -3449,7 +3448,6 @@ body .page-header {
   background-color: #856d47;
   height: 4rem;
   width: 40%;
-  max-width: 7rem;
   border: none;
   display: inline-block;
 }
@@ -3546,8 +3544,18 @@ select:-webkit-autofill:focus{
 }
 
 .show-password{
-  position: absolute;
-  
+  border-bottom: 1px solid white;
+  height: 2rem;
+  padding-right: 1rem;
+  color:rgba(255, 255, 255, 0.4);
+  -webkit-transition: all .35s ease-in-out;
+  -moz-transition: all .30s ease-in-out;
+  -ms-transition: all .30s ease-in-out;
+  -o-transition: all .30s ease-in-out;
+  transition: all .30s ease-in-out;
+}
+.show-password:hover{
+  cursor: pointer;
 }
 /* RESPONSIVE MEDIUM  */
 @media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {

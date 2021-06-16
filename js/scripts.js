@@ -536,7 +536,7 @@
       $('.cursor').toggleClass('drag');
     });
 
-    $('a, .hamburger-menu, .equalizer, .swiper-pagination-bullet, .swiper-button-prev, .swiper-button-next, .main-nav button, submit[type="submit"], .rooms-slider .room-detail h3').hover(function () {
+    $('.button, .show-password, a, .hamburger-menu, .equalizer, .swiper-pagination-bullet, .swiper-button-prev, .swiper-button-next, .main-nav button, submit[type="submit"], .rooms-slider .room-detail h3').hover(function () {
       $('.cursor').toggleClass('light');
     });
 
@@ -576,3 +576,22 @@
 
 
 })(jQuery);
+
+// SHOW PASSWORD BUTTON
+function showPassword() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+    showPasswordBtn.classList.toggle('fa-eye');
+    showPasswordBtn.classList.toggle('fa-eye-slash');
+    showPasswordBtn.style.color = "rgba(255, 255, 255, 1)";
+  } else {
+    x.type = "password";
+    showPasswordBtn.classList.toggle('fa-eye');
+    showPasswordBtn.classList.toggle('fa-eye-slash');
+    showPasswordBtn.style.color = "rgba(255, 255, 255, 0.4)";
+  }
+}
+
+let showPasswordBtn = document.querySelector('#show-password');
+showPasswordBtn.addEventListener('click', showPassword);
