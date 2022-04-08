@@ -1,0 +1,173 @@
+<section class="content-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h6>ONE PLEASE 4 UNLIMITED PEOPLE</h6>
+            <h2>The Ultimate Selection<br>
+              Upon Request </h2>
+          </div>
+          <!-- end section-title --> 
+        </div>
+        <!-- end col-12 -->
+        <div class="col-12">
+          <div class="carousel-image-box">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/villas/cleo.jpg " style="height: 400px;" alt="Image">
+                  <figcaption>
+                    <h5>ISTRA</h5>
+                    <p>237 rooms are available.<br>
+                      16 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/villas/ca-veia-1.jpg" style="height: 400px;" alt="Image">
+                  <figcaption>
+                    <h5>KVARNER</h5>
+                    <p>100 rooms are available.<br>
+                      11 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/villas/villa-kastelir-1.jpg" style="height: 400px;" alt="Image">
+                  <figcaption>
+                    <h5>ISLANDS</h5>
+                    <p>68 rooms are available.<br>
+                      10 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/villas/villa-vie-1.jpg" style="height: 400px;" alt="Image">
+                  <figcaption>
+                    <h5>DALMATIA</h5>
+                    <p>184 rooms are available.<br>
+                      44 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+               <!-- end swiper-slide -->
+               <!--<div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/8.jpg" alt="Image">
+                  <figcaption>
+                    <h5>DALMATIA</h5>
+                    <p>184 rooms are available.<br>
+                      44 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+               <!-- end swiper-slide -->
+               <!--<div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/7.jpg" alt="Image">
+                  <figcaption>
+                    <h5>DALMATIA</h5>
+                    <p>184 rooms are available.<br>
+                      44 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+               <!-- end swiper-slide -->
+               <!--<div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/6.jpg" alt="Image">
+                  <figcaption>
+                    <h5>DALMATIA</h5>
+                    <p>184 rooms are available.<br>
+                      44 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+               <!-- end swiper-slide -->
+               <!--<div class="swiper-slide">
+                <figure class="reveal-effect"> <img src="img/1.jpg" alt="Image">
+                  <figcaption>
+                    <h5>DALMATIA</h5>
+                    <p>184 rooms are available.<br>
+                      44 meeting & events</p>
+                  </figcaption>
+                </figure>
+              </div>
+                    
+            </div>
+          </div>
+          <!-- end carousel-image-box -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- end col-12 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end content-section -->
+ <!-- <section class="content-section no-spacing">
+    <div class="container">
+      <div class="row no-gutters align-items-center">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h6>LUXURY PREMIUM HOTELS</h6>
+            <h2>Quardo Hotels in UK</h2>
+          </div>  --> 
+          <!-- end section-title --> 
+        </div>
+        <!-- end col-12 -->
+     <!--   <div class="col-lg-6">
+          <figure class="side-image left-align reveal-effect"><img src="img/specialoffer.jpg" alt="Image"></figure>
+        </div>   --> 
+        <!-- end col-6 -->
+        <div class="col-lg-6">
+     <!--     <div class="side-hotel-box right">
+            <div class="review"><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star"></i><span>3,674 reviews</span></div>  -->
+            <!-- end -->
+      <!--       <h2>Homewood Suites by <br>
+              Quardo New York </h2>
+            <p>#1 Best Value in New York City that matches your filters</p>
+            <div class="info-box"> <span>4 offers available, <br>
+              1 to 7 nights</span> <b><small>per night</small>$77</b> </div> -->
+            <!-- end info-box --> 
+       <!--      <a href="room-detail.html" class="custom-button">VIEW & BOOK</a>
+            <div class="availability"><i class="lni lni-checkmark"></i> Instant Availability</div>
+          </div>   --> 
+          <!-- end side-content --> 
+        </div>
+        <!-- end col-6 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end content-section -->
+
+
+
+
+   <section class="content-section no-spacing" data-background="#f5f3ec">
+    <div class="container">
+      <div class="row no-gutters align-items-center">
+        <div class="col-lg-7">
+          <figure class="side-gallery">
+            <div class="reveal-effect concierge-section"><img src="unique/img/tent1.webp" alt="Image"></div>
+            <div class="reveal-effect concierge-section"><img src="unique/img/morning-star.jpg" alt="Image"></div>
+            <div class="reveal-effect concierge-section"><img src="unique/img/lighthouse.jpg" alt="Image"></div>
+          </figure>
+        </div>
+        <!-- end col-6 -->
+        <div class="col-lg-5">
+          <div class="side-content text-center">
+            <h2>Mansions Exclusive Collection</h2>
+            <p>Book finest unique places & make your gateaway plan</p>
+            <a href="unique-places.html" class="custom-button">VIEW UNIQUE PLACES</a> </div>
+          <!-- end side-content --> 
+        </div>
+        <!-- end col-6 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end content-section -->

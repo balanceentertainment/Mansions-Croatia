@@ -1,0 +1,218 @@
+concierge tabs
+
+
+ <section class="content-section" data-background="#12271be6">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title light">
+            <h6>PLAN YOUR EVENTS & MEETINGS</h6>
+            <h2>The World od Mansions Concierge</h2>
+          </div>
+          <!-- end section-title --> 
+        </div>
+        <!-- end col-12 -->
+    
+        <div class="col-12">
+          <div class="events-tab">
+            <ul class="tab-nav">
+              <li class="active"><a href="#tab01"> <span></span> </a></li>
+              <li><a href="#tab02"> <span></span></a></li>
+              <li><a href="#tab03"> <span></span> </a></li>
+              <li><a href="#tab04"> <span></span></a></li>
+            </ul>
+            <div id="tab01" class="tab-item active-item">
+              <div class="carousel-events-box">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"> <img src="img/conci.jpg" alt="Image"> </figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">In Home Dining<br>
+                        </a></h5>
+                      <span>Whether you require a private chef to make a special event more memorable or just a quick meal delivered.</span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="img/lobbyboy.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">Kids Concierge</a></h5>
+                      <span>If you're travelling as a family, your concierge will arrange a range of age appropriate added extras to help make travelling...</span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="img/cook.jpeg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">Itinerary Planing</a></h5>
+                      <span>Whether you're in town to shop, eat, explore or relax, we can assist in putting together a perfect holiday itinerary with...</span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="img/privateparty.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">Private Parties</a></h5>
+                      <span>We produce legendary parties and celebrations for the world’s most discerning audience. Renowned for creating original experiences in exciting sought-after locations all over the world, from intimate gatherings to lavish celebrations, we have a global reputation for production excellence, precision attention and creating memories. </span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide --> 
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-prev"></div>
+                <div class="swiper-next"></div>
+              </div>
+              <!-- end carousel-events-box --> 
+            </div>
+            <!-- end tab-item -->
+            <div id="tab02" class="tab-item">
+              <div class="carousel-events-box">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event04.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span></span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"> <img src="images/carousel-event05.jpg" alt="Image"> </figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span></span> <small></small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event06.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event07.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide --> 
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-prev"></div>
+                <div class="swiper-next"></div>
+              </div>
+              <!-- end carousel-events-box --> 
+            </div>
+            <!-- end tab-item -->
+            <div id="tab03" class="tab-item">
+              <div class="carousel-events-box">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"> <img src="images/carousel-event08.jpg" alt="Image"> </figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event07.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event06.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event05.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide --> 
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-prev"></div>
+                <div class="swiper-next"></div>
+              </div>
+              <!-- end carousel-events-box --> 
+            </div>
+            <!-- end tab-item -->
+            <div id="tab04" class="tab-item">
+              <div class="carousel-events-box">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"> <img src="images/carousel-event04.jpg" alt="Image"> </figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event08.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event06.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide -->
+                  <div class="swiper-slide">
+                    <figure class="reveal-effect"><img src="images/carousel-event01.jpg" alt="Image"></figure>
+                    <div class="content">
+                      <h5><a href="meetings-events-detail.html">The Caterer Marketing <br>
+                        & PR Summit</a></h5>
+                      <span>07 Oct 2020</span> <small>Quardo Hotel, London</small> </div>
+                    <!-- end content --> 
+                  </div>
+                  <!-- end swiper-slide --> 
+                </div>
+                <!-- end swiper-wrapper -->
+                <div class="swiper-prev"></div>
+                <div class="swiper-next"></div>
+              </div>
+              <!-- end carousel-events-box --> 
+            </div>
+            <!-- end tab-item --> 
+          </div>
+          <!-- end events-tab --> 
+        </div>
+        <!-- end col-12 --> 
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end content-section -->
