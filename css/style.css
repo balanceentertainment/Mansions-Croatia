@@ -3611,8 +3611,9 @@ footer a{
   height: auto;
   width: 100vw;
   display: flex;
-  background-color: #141414;
-  padding-top: 8rem;
+  background-color: var(--mansions-green);
+  padding-top: 15rem;
+  color: white;
 }
 
 .signup-page .container{
@@ -4020,7 +4021,6 @@ label{
   justify-content: center;
   align-items: center;
   background-color: var(--mansions-gold);
-  margin-top: 100px;
 }
 .break-logo{
   width: 100%;
