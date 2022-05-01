@@ -97,6 +97,13 @@ theme.
   src: url("../fonts/PinyonScript-Regular.ttf");
   font-style: normal;
 }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
 * {
   outline: none !important;
 }
@@ -1211,11 +1218,15 @@ body .page-header {
 }
 .language-list li:hover{
   background-color: var(--dirty-white-dark);
-  color: var(--mansions-gold)
+  color: var(--mansions-gold);
 }
 .language{
   display: flex !important;
   align-items: center;
+}
+
+.site-menu li a span{
+  vertical-align: middle;
 }
 
 /* HAMBURGER LANGUAGE */
