@@ -3953,7 +3953,7 @@ select:-webkit-autofill:focus{
 }
 .service-symbol img{
   max-width: initial;
-  width: 120%;
+  width: 100%;
 }
 .service-name p{
   font-size: 0.7rem;
