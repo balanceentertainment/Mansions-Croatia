@@ -1099,67 +1099,6 @@
   <!-- END FOOTER --> 
 </main>
 
-<!-- Test API-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script>
-  var url_authorise = "api/ws.svc/export_api/v1/8689284273/28114/authorise";
-  var url_properties = "api/ws.svc/export_api/v1/8689284273/28114/properties";
-  var Id = [];
-  
-  $(document).ready(function(){
-    var token = JSON.parse(localStorage.getItem("token"));
-    $.ajax({
-      method: "GET",
-      url: url_properties,
-      dataType: 'JSON',
-      headers: {
-        token: token
-      },
-      success: function(data){
-        SaveId(data);
-      },
-      error: function(){
-        $.ajax({
-            method: "POST",
-            url: url_authorise,
-            contentType: "application/json",
-            dataType: 'JSON',
-            contentType: 'application/json', 
-            data: JSON.stringify({
-              key: "ab2c901f579861d54a6232ee6c19c65e84e532d2" 
-            }),
-            success: function(data) {
-              var token = data.token
-              localStorage.setItem("token", JSON.stringify(token));
-              console.log(token);
-              console.log("provjera")
-              $.ajax({
-                method: "GET",
-                url: url_properties,
-                dataType: 'JSON',
-                headers: {
-                  token: token
-                },
-                success: function(data){
-                  SaveId(data);
-                },
-            })
-            },
-          })
-      }
-    })
-  })
-  function SaveId(data){
-    console.log(data)
-    $.each(data.Properties, function(i){
-      Id.push(data.Properties[i].Id);
-    })
-    localStorage.setItem("Id", JSON.stringify(Id));
-
-  }
-</script>
-
-
 <!-- JS FILES --> 
 <script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
@@ -1170,5 +1109,19 @@
 <script src="js/overscroll.js"></script> 
 <script src="js/TweenMax.min.js"></script> 
 <script src="js/scripts.js"></script>
+<script src="js/rent-api.js"></script>
+
+<!-- Test API-->
+<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script-->
+<script>  
+var url_properties = "api/ws.svc/export_api/v1/8689284273/28114/properties"; 
+
+  $(document).ready(function(){
+    $("body").api({
+      url:url_properties
+    });
+  })
+
+</script>
 </body>
 </html>

@@ -1,0 +1,13 @@
+version: '3.2'
+services:
+
+  mansions-web:
+    image: nginx 
+    container_name: 'mansions-web'
+    environment:
+      - NN
+    ports:
+      - "90:80"
+    volumes:
+      - .:/usr/share/nginx/html 
+      - ./nginx:/etc/nginx/conf.d   
