@@ -3615,6 +3615,10 @@ footer a{
 }
 
 /* SIGNUP PAGE */
+.padding-bottom {
+  padding-bottom: 15rem;
+}
+
 .signup-page-header{
   height: auto;
 }
