@@ -11,28 +11,30 @@
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="Mansions | Croatia">
-<meta property="og:image" content="http://www.themezinho.net/quardo/preview.png">
+<meta property="og:image" content="img/LOGO/logo-text.svg">
 <meta property="og:site_name" content="MansionsCroatia">
 <meta property="og:title" content="MansionsCroatia">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://www.mansions.com">
+<meta property="og:url" content="http://www.mansions-croatia.com">
 
 <!-- TWITTER META -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@Quardo">
-<meta name="twitter:creator" content="@Quardo">
-<meta name="twitter:title" content="Quardo">
-<meta name="twitter:description" content="Quardo | Deluxe Premium Hotels">
-<meta name="twitter:image" content="http://www.themezinho.net/quardo/preview.png">
+<meta name="twitter:site" content="@MansionsCroatia">
+<meta name="twitter:creator" content="@MansionsCroatia">
+<meta name="twitter:title" content="MansionsCroatia">
+<meta name="twitter:description" content="MansionsCroatia | Luxury Villas Concierge Services">
+<meta name="twitter:image" content="img/LOGO/logo-text.svg">
 
 <!-- FAVICON FILES -->
-<link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-<link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-<link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-<link href="ico/favicon.png" rel="shortcut icon">
+<link href="img/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="img/favicon/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+<link href="img/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+<link href="img/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+<link href="img/favicon/favicon.png" rel="shortcut icon">
 
 <!-- CSS FILES -->
+<link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="https://kit.fontawesome.com/9037b76ad9.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="css/lineicons.css">
 <link rel="stylesheet" href="css/datepicker.min.css">
@@ -67,7 +69,7 @@
 <div class="preloader">
   <div class="loadbar"></div>
   <!-- end loadbar -->
-  <figure style="background: url(img/LOGO/logo-text-dark-preloader.svg) no-repeat center/200px 200px;"></figure>
+  <figure style="background: url(img/LOGO/logo-text-dark-op20.svg) no-repeat center/200px 200px;"></figure>
 </div>
 <!-- END PRELOADER -->
 <!-- PAGE TRANSITION ANIMATION -->
@@ -89,20 +91,37 @@
         <ul class="nav-menu login-menu">
           <li>
             <div class="break-logo">
-              <a href="index.html"><img src="/img/LOGO/logo-text.svg" alt=""></a>
+              <a href="index.html"><img src="img/LOGO/logo-text.svg" alt=""></a>
             </div>              
           </li>
         </ul>
       </div>
       <!-- END LOGO / ex-user-login -->
-      <ul class="nav-menu">
+      <!-- NAV MENU -->
+      <ul class="nav-menu" id="hamburger-nav-menu">
         <li><a href="collections.html">Collections</a></li>
         <li><a href="promotions.html">Promotions</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="journal.html">Journal</a></li>
         <li><a href="about-us.html">About us</a></li>
         <li><a href="concierge.html">Concierge</a></li>
+        <li>
+          <a href="#" class="language-text">
+            <img src="img/language-flags/united-kingdom.png" alt="">
+          </a>
+        </li>
+        <li><a href="sign-in.html">My Profile</a></li>
       </ul>
+      <!-- END NAV MENU -->
+      <!-- LANGUAGE LIST -->
+      <ul class="language-list-hamburger disabled hidden">
+        <div class="languages-container">
+          <li class="language"><img src="img/language-flags/united-kingdom.png" alt="">English</li>
+          <li class="language"><img src="img/language-flags/croatia.png" alt="">Hrvatski</li>
+        </div>
+       </ul>
+      <!-- END LANGUAGE LIST -->
+      <!-- SOCIAL MEDIA -->
       <div class="info-box">
         <ul class="nav-social">
           <span>Follow us on Social Media</span>
@@ -113,7 +132,7 @@
           <li><a href="#"><i class="lni lni-youtube"></i></a></li>
         </ul>
       </div>
-      <!-- end info-box --> 
+      <!-- END SOCIAL MEDIA --> 
     </div>
     <!-- end container --> 
   </nav>
@@ -125,7 +144,7 @@
       <div class="logo"> <a href="index.html"><img src="img/LOGO/logo-text.svg" alt="Image"></a> </div>
       <!-- END NAVBAR LOGO -->
       <!-- BOOKING AND SOCIAL -->
-      <div class="navbar-text"><p class='navbar-booking'>Booking  +385 91 3271 221</p> 
+      <div class="navbar-text"><p class='navbar-booking'>Call +385 91 3271 221</p> 
         <div class="nav-social social-nav">
           <a href="#"><i class="lni lni-facebook-filled"></i></a>
           <a href="https://www.instagram.com/mansionscroatia/"><i class="lni lni-instagram"></i></a>
@@ -144,6 +163,16 @@
           <li><a href="journal.html">Journal</a></li>
           <li><a href="about-us.html">About us</a></li>
           <li><a href="concierge.html">Concierge</a></li>
+          <li>
+            <a href="#">
+              <img class="language-icon" src="img/language-flags/united-kingdom.png" alt="">
+            </a>
+            <ul class="language-list disabled hidden">
+              <li class="language"><img src="img/language-flags/united-kingdom.png" alt="">English</li>
+              <li class="language"><img src="img/language-flags/croatia.png" alt="">Hrvatski</li>
+            </ul>
+          </li>
+          <li><a href="sign-in.html"><span class="material-symbols-outlined">account_circle</span></a></li>
         </ul>
       </div>
       <!-- END SITE MENU -->
@@ -283,118 +312,68 @@
 	</section>
 	<!-- end content-section -->
 
-  
-  <section class="content-section no-spacing" data-background="#856d47">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="footer-bar"><i class="lni lni-protection"></i>
-            <h6>Call a New travel specialist on</h6>
-            <strong>+61 3 8648 8871</strong> 
-			<figure><img src="images/logo-tripadviser.png" alt="Image"></figure>
-			</div>
-          <!-- end footer-bar --> 
-        </div>
-        <!-- end col-12 --> 
-      </div>
-      <!-- end row --> 
+  <!-- PAGE-END LOGO -->
+  <section class="page-end">
+    <div class="break-logo">
+      <img src="img/LOGO/logo-text-dark-op50.svg" alt="">
     </div>
-    <!-- end container --> 
   </section>
-  <!-- end content-section -->
+  <!-- END PAGE-END LOGO -->
+
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4">
-          <h6 class="widget-title">Impressive The Quardo</h6>
-          <p>Both refined and inventive The Quardo in London England combines <u>historic legacy</u> with contemporary luxury at the city’s most desirable location on the Grand Canal.</p>
+      <div class="outer-column">
+        <div class="column">
+          <h6>Mansions Croatia</h6>
+          <ul>
+            <li><a>About Us</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Terms of Use</a></li>
+          </ul>
         </div>
-        <!-- end col-4 -->
-        <div class="col-xl-3 col-lg-1"> </div>
-        <!-- end col-3 -->
-        <div class="col-xl-3 col-lg-3">
-          <h6 class="widget-title">Contact</h6>
-          <p>customer@quardo.com<br>
-            +1 3157 5426 #219<br>
-            <a href="https://www.google.com/maps/search/?api=1&amp;query=centurylink+field" data-fancybox="" data-width="640" data-height="360">Discover On Map</a></p>
+        <div class="column">
+          <h6>Partner Section</h6>
+          <ul>
+            <li><a>Partner log-in</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Investment opportunities</a></li>
+            <li><a>Rent your property</a></li>
+          </ul>
         </div>
-        <!-- end col-3 -->
-        <div class="col-xl-2 col-lg-4">
-          <h6 class="widget-title">Location</h6>
-          <p> Harbour Avenue, 60/A, 
-            09485 Liverpool <br>
-            England </p>
-        </div>
-        <!-- end col-2 -->
-        <div class="col-12">
-          <div class="bottom-bar"> <span>© 2020 The Quardo | Deluxe Premium 5* Hotels</span>
-            <ul class="footer-social">
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Linkedin</a></li>
-            </ul>
-            <!-- end footer-social --> 
-          </div>
-          <!-- end bottom-bar --> 
-        </div>
-        <!-- end col-12 --> 
       </div>
-      <!-- end row --> 
+      <div class="outer-column">
+        <div class="column">
+          <h6>Contact</h6>
+          <ul>
+            <li>info@mansions.com</li>
+            <li>+385 99 5426 219</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h6>Location</h6>
+          <ul>
+            <li>Frane Supila 11, 51000 Rijeka, Croatia </li>
+            <li><a href="https://www.google.com/maps/search/?api=1&amp;query=centurylink+field" data-fancybox="" data-width="640" data-height="360">Discover On Map</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-bar"> 
+      <span>© 2021 Mansions Croatia</span>
+      <ul class="footer-social">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Linkedin</a></li>
+        <li><a href="#">YouTube</a></li>
+      </ul>
     </div>
     <!-- end container --> 
   </footer>
-  <!-- end footer --> 
+  <!-- END FOOTER --> 
 </main>
-<style>
-  .h6{
-    letter-spacing: 10px;
-  }
-
-  .lni{
-    color: #fff;
-    size: 70px;
-  }
-
-  .social-nav{
-    letter-spacing: 17.5px;
-  }
-
-  .icon-space{
-    size: 175px;
-  }
-
-  .navbar-text{
-    letter-spacing: 2px;
-  }
-
-  .swiper-scrollbar{
-    height: 2px;
-    width: 90%;
-  }
-
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
-  .slider h6 {
-    letter-spacing: 5px;
-    font-size: 1.5vW;
-  }
-}
-
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
-  .slider h6{
-    letter-spacing: 5px;
-    font-size: 2.5vw;
-
-  }
-}
-
-.navbar .logo a img{
-  height: 150px;
-  margin-left: 20px;
-}
-
-
-
-</style>
 
 <!-- JS FILES --> 
 <script src="js/jquery.min.js"></script> 
@@ -404,7 +383,7 @@
 <script src="js/datepicker.min.js"></script> 
 <script src="js/smooth-scrollbar.js"></script> 
 <script src="js/overscroll.js"></script> 
-<script src="js/TweenMax.min.js"></script>
+<script src="js/TweenMax.min.js"></script> 
 <script src="js/scripts.js"></script>
 </body>
 </html>

@@ -11,28 +11,30 @@
 
 <!-- SOCIAL MEDIA META -->
 <meta property="og:description" content="Mansions | Croatia">
-<meta property="og:image" content="http://www.themezinho.net/quardo/preview.png">
+<meta property="og:image" content="img/LOGO/logo-text.svg">
 <meta property="og:site_name" content="MansionsCroatia">
 <meta property="og:title" content="MansionsCroatia">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://www.mansions.com">
+<meta property="og:url" content="http://www.mansions-croatia.com">
 
 <!-- TWITTER META -->
 <meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@Quardo">
-<meta name="twitter:creator" content="@Quardo">
-<meta name="twitter:title" content="Quardo">
-<meta name="twitter:description" content="Quardo | Deluxe Premium Hotels">
-<meta name="twitter:image" content="http://www.themezinho.net/quardo/preview.png">
+<meta name="twitter:site" content="@MansionsCroatia">
+<meta name="twitter:creator" content="@MansionsCroatia">
+<meta name="twitter:title" content="MansionsCroatia">
+<meta name="twitter:description" content="MansionsCroatia | Luxury Villas Concierge Services">
+<meta name="twitter:image" content="img/LOGO/logo-text.svg">
 
 <!-- FAVICON FILES -->
-<link href="ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
-<link href="ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
-<link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
-<link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
-<link href="ico/favicon.png" rel="shortcut icon">
+<link href="img/favicon/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon" sizes="144x144">
+<link href="img/favicon/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon" sizes="114x114">
+<link href="img/favicon/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon" sizes="72x72">
+<link href="img/favicon/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon">
+<link href="img/favicon/favicon.png" rel="shortcut icon">
 
 <!-- CSS FILES -->
+<link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<script src="https://kit.fontawesome.com/9037b76ad9.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="css/lineicons.css">
 <link rel="stylesheet" href="css/datepicker.min.css">
@@ -67,7 +69,7 @@
 <div class="preloader">
   <div class="loadbar"></div>
   <!-- end loadbar -->
-  <figure style="background: url(img/LOGO/logo-text-dark-preloader.svg) no-repeat center/200px 200px;"></figure>
+  <figure style="background: url(img/LOGO/logo-text-dark-op20.svg) no-repeat center/200px 200px;"></figure>
 </div>
 <!-- END PRELOADER -->
 <!-- PAGE TRANSITION ANIMATION -->
@@ -89,20 +91,37 @@
         <ul class="nav-menu login-menu">
           <li>
             <div class="break-logo">
-              <a href="index.html"><img src="/img/LOGO/logo-text.svg" alt=""></a>
+              <a href="index.html"><img src="img/LOGO/logo-text.svg" alt=""></a>
             </div>              
           </li>
         </ul>
       </div>
       <!-- END LOGO / ex-user-login -->
-      <ul class="nav-menu">
+      <!-- NAV MENU -->
+      <ul class="nav-menu" id="hamburger-nav-menu">
         <li><a href="collections.html">Collections</a></li>
         <li><a href="promotions.html">Promotions</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="journal.html">Journal</a></li>
         <li><a href="about-us.html">About us</a></li>
         <li><a href="concierge.html">Concierge</a></li>
+        <li>
+          <a href="#" class="language-text">
+            <img src="img/language-flags/united-kingdom.png" alt="">
+          </a>
+        </li>
+        <li><a href="sign-in.html">My Profile</a></li>
       </ul>
+      <!-- END NAV MENU -->
+      <!-- LANGUAGE LIST -->
+      <ul class="language-list-hamburger disabled hidden">
+        <div class="languages-container">
+          <li class="language"><img src="img/language-flags/united-kingdom.png" alt="">English</li>
+          <li class="language"><img src="img/language-flags/croatia.png" alt="">Hrvatski</li>
+        </div>
+       </ul>
+      <!-- END LANGUAGE LIST -->
+      <!-- SOCIAL MEDIA -->
       <div class="info-box">
         <ul class="nav-social">
           <span>Follow us on Social Media</span>
@@ -113,7 +132,7 @@
           <li><a href="#"><i class="lni lni-youtube"></i></a></li>
         </ul>
       </div>
-      <!-- end info-box --> 
+      <!-- END SOCIAL MEDIA --> 
     </div>
     <!-- end container --> 
   </nav>
@@ -125,7 +144,7 @@
       <div class="logo"> <a href="index.html"><img src="img/LOGO/logo-text.svg" alt="Image"></a> </div>
       <!-- END NAVBAR LOGO -->
       <!-- BOOKING AND SOCIAL -->
-      <div class="navbar-text"><p class='navbar-booking'>Booking  +385 91 3271 221</p> 
+      <div class="navbar-text"><p class='navbar-booking'>Call +385 91 3271 221</p> 
         <div class="nav-social social-nav">
           <a href="#"><i class="lni lni-facebook-filled"></i></a>
           <a href="https://www.instagram.com/mansionscroatia/"><i class="lni lni-instagram"></i></a>
@@ -144,6 +163,16 @@
           <li><a href="journal.html">Journal</a></li>
           <li><a href="about-us.html">About us</a></li>
           <li><a href="concierge.html">Concierge</a></li>
+          <li>
+            <a href="#">
+              <img class="language-icon" src="img/language-flags/united-kingdom.png" alt="">
+            </a>
+            <ul class="language-list disabled hidden">
+              <li class="language"><img src="img/language-flags/united-kingdom.png" alt="">English</li>
+              <li class="language"><img src="img/language-flags/croatia.png" alt="">Hrvatski</li>
+            </ul>
+          </li>
+          <li><a href="sign-in.html"><span class="material-symbols-outlined">account_circle</span></a></li>
         </ul>
       </div>
       <!-- END SITE MENU -->
@@ -162,6 +191,7 @@
     <!-- end container --> 
   </nav>
   <!-- END NAVBAR -->
+
 
   <header class="page-header" data-background="news/img/islands-header.jpg">
     <div class="container">
