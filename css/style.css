@@ -654,7 +654,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 
 /* REVEAL EFFECT */
-.reveal-effect {
+/* .reveal-effect {
   float: left;
   position: relative;
 }
@@ -730,7 +730,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
     visibility: visible;
     opacity: 1;
   }
-}
+} */
 /* CUSTOM BUTTON */
 .custom-button {
   height: 80px;
@@ -1389,7 +1389,7 @@ body .page-header {
   top: 0;
   opacity: 0.3;
 }
-.slider:before {
+/* .slider:before {
   content: "";
   width: 30%;
   height: 6px;
@@ -1398,7 +1398,7 @@ body .page-header {
   left: 0;
   top: 0;
   z-index: 2;
-}
+} */
 .slider .slider-fraction {
   width: 20%;
   height: 80px;
