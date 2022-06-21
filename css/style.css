@@ -81,6 +81,7 @@ theme.
     69. DESTINATIONS
     70. ABOUT US
     71. SERVICES
+    72. CUSTOM CLASSES
 	
 
 */
@@ -5015,3 +5016,8 @@ label{
   }
 }
 
+/* 72. CUSTOM CLASSES */
+
+.space-bottom {
+  margin-bottom: 2rem;
+}
