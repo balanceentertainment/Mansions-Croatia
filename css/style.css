@@ -195,6 +195,20 @@ a:hover {
   color: #141414;
 }
 
+.menu-item::after{
+  transition: all ease-in-out .1s;
+  background: var(--mansions-gold);
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  margin: 0 auto;
+}
+
+.menu-item:hover:after {
+  width: 100%;
+}
+
 /* FORM ELEMENTS */
 input[type="text"] {
   width: 420px;
