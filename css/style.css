@@ -858,7 +858,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
   }
 }
 /* PAGE TRANSITION */
-.page-transition {
+/* .page-transition {
   width: 100%;
   height: 0;
   display: flex;
@@ -893,7 +893,7 @@ input::-moz-focus-inner, input::-moz-focus-outer {
 }
 .page-transition.active .layer {
   height: 100vh;
-}
+} */
 
 /* BODY */
 body .navbar {
