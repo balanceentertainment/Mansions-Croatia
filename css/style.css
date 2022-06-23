@@ -386,7 +386,7 @@ button[type="submit"] i {
 }
 
 /* CUSTOM CURSOR */
-.cursor {
+/* .cursor {
   position: fixed;
   top: -40px;
   left: -40px;
@@ -429,7 +429,7 @@ button[type="submit"] i {
   font-family: "LineIcons";
   font-size: 20px;
   color: #fff;
-}
+} */
 
 /* RANGE SLIDER */
 .range-slider {
