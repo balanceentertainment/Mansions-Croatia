@@ -3739,7 +3739,7 @@ footer a{
 }
 
 /* USER NAVBAR */
-.nav-user{
+.logo-hamburger{
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -3769,7 +3769,7 @@ footer a{
   width: 40%;
   background-color: rgba(255, 255, 255);
 }
-.hamburger-navigation-active .hamburger-navigation .nav-user {
+.hamburger-navigation-active .hamburger-navigation .logo-hamburger {
   opacity: 1;
   visibility: visible;
 }
@@ -4744,10 +4744,10 @@ label{
 /* RESPONSIVE MOBILE */
 @media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
   .hamburger-navigation-active .hamburger-navigation .container {
-    padding-top: 50px;
+    /* padding-top: 50px; */
   }
 
-  .nav-user{
+  .logo-hamburger{
     width: 100%;
   }
 
@@ -5034,4 +5034,8 @@ label{
 
 .space-bottom {
   margin-bottom: 2rem;
+}
+
+.outlined{
+  border: 1px solid red !important;
 }

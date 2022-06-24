@@ -2,9 +2,9 @@
   $(document).ready(function () {
     "use strict";
 
-
     // HAMBURGER MENU
     $('.hamburger-menu').on('click', function (e) {
+      // console.log(window.getComputedStyle(document.querySelector(".outlined"),null));
       if ($("body").hasClass('hamburger-navigation-active')) {
 
         $("body .hamburger-navigation").css("transition", "");
