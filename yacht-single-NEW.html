@@ -64,6 +64,7 @@
 </head>
 
 <body>
+<div class="cursor js-cursor"></div>
 <!-- PRELOADER -->
 <div class="preloader">
   <div class="loadbar"></div>
@@ -82,11 +83,11 @@
 <main id="main">
   <!-- HAMBURGER NAVIGATION MENU -->
   <nav class="hamburger-navigation">
-    <!-- <div class="layer"></div> -->
+    <div class="layer"></div>
     <!-- end layer -->
     <div class="container">
       <!-- LOGO / ex-user-login -->
-      <div class="logo-hamburger">
+      <div class="nav-user">
         <ul class="nav-menu login-menu">
           <li>
             <div class="break-logo">
@@ -156,12 +157,12 @@
       <!-- SITE MENU -->
       <div class="site-menu">
         <ul>
-          <li class="menu-item"><a href="collections.html">Collections</a></li>
-          <li class="menu-item"><a href="promotions.html">Promotions</a></li>
-          <li class="menu-item"><a href="services.html">Services</a></li>
-          <li class="menu-item"><a href="journal.html">Journal</a></li>
-          <li class="menu-item"><a href="about-us.html">About us</a></li>
-          <li class="menu-item"><a href="concierge.html">Concierge</a></li>
+          <li><a href="collections.html">Collections</a></li>
+          <li><a href="promotions.html">Promotions</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="journal.html">Journal</a></li>
+          <li><a href="about-us.html">About us</a></li>
+          <li><a href="concierge.html">Concierge</a></li>
           <li>
             <a href="#">
               <img class="language-icon" src="img/language-flags/united-kingdom.png" alt="">
@@ -191,10 +192,11 @@
   </nav>
   <!-- END NAVBAR -->
 
-  <header class="page-header" style="height: 90vh;" data-background="img/optasia.jpeg">
+
+  <header class="page-header" data-background="yachts/img/Optasia-yacht-atalanta-golden-yachts-01.jpg" style="height: 90vh;">
     <div class="container">
-      <h1 class="yacht-header">EXCLUSIVE CHARTER COLLECTION</h1>
-      <p>Yachting with confidence</p>
+      <h1>O'Ptasia</h1>
+      <p></p>
     </div>
     <!-- end container -->
     <div class="scroll-down"></div>
@@ -203,127 +205,168 @@
   <!-- end page-header -->
   <section class="content-section">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12">
-          <div class="section-title text-center">
-            <h6>WELCOME TO PRIDE OF YACHTS</h6>
-            <h2>Charter Group specialises in <br>
-providing luxury</h2>
+      <div class="row">
+        <div class="col-xl-8 col-lg-6">
+          <div class="room-type">
+            <h3>O'Ptasia</h3>
+            <small>Salvela</small> </div>
+          <!-- end room-type --> 
+          <div class="price-line"><button id="myBtn" class="myBtn"><span style="color: #cda16a;">Learn more about payments</span></div></button>
+          <!-- end price-line -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2></h2>
+    </div>
+    <div class="modal-body">
+      <p><div class="price-line"><span style="color: #cda16a;">STAY FROM</span> $500.00</div></p>
+      <p>Price includes only staying in Villa.<br>
+         Concierge and services are paid <u>separately</u>.</p>
+    </div>
+    <div class="modal-footer">
+      <h3></h3>
+    </div>
+  </div>
+</div>
+        </div>
+        <!-- end col-8 -->
+        <div class="col-xl-4 col-lg-6">
+          <div class="recent-testimonial"> <span><strong>Very Good</strong> <i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></span> <small>17 guest reviews</small>
+            <p>Second time at this Mansion will be going 
+              back next year same time.</p>
           </div>
-          <!-- end section-title --> 
+          <!-- end recent-testimonial -->   
+        </div>
+        <!-- end col-4 -->
+        <div class="col-12">
+          <div class="room-gallery-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/Villa old olive1 Salvela.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-01.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/2.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-02.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/3.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-03.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/4.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-04.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/5.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-05.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/6.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-06.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/7.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-07.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/8.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-08.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide --> 
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/9.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-16.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide"> <a href="img/villas/Villa Old Olive 1/10.jpg" data-fancybox><img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-17.jpg" alt="Image"></a> </div>
+              <!-- end swiper-slide -->
+            </div>
+            <!-- end swiper-wrapper --> 
+          </div>
+          <!-- end room-gallery-top -->
+          <div class="room-gallery-thumbs">
+            
+            <!-- end swiper-wrapper --> 
+          </div>
+          <!-- end room-gallery-thumbs --> 
         </div>
         <!-- end col-12 -->
-        <div class="col-lg-6">
-		  <p>The most luxurious holidays begin when you step aboard a superyacht. Completely customizable from the destination to the menu and beyond, 
-        a yacht charter is second to none when it comes to five-star vacations. 
-        Every detail will be designed to your exact specifications as you cruise the world in style aboard the superyacht of your choice. 
-        From the moment you embark, the professional, high-caliber captain and crew will be at your service to ensure your holiday is everything you dreamed and more. 
-        This one-of-a-kind, once-in-a-lifetime experience is ready and waiting for you.
-        All of Mansions charter brokers have an encyclopedic knowledge of the best luxury yachts and cruising grounds. 
-        The moment you make your first inquiry, your experienced broker will guide you through the entire process. 
-        </p>
-			<p>From the initial yacht and destination selection to the paperwork required to secure your preferred yacht and 
-        liaising with your captain and crew up until the moment you disembark, your charter broker will be available at any time to discuss your questions and concerns.</p>
-		  </div>
-        <!-- end col-6 -->
-        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-1">
-          <div class="testimonial-box bottom">
-           <small><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i><i class="lni lni-star-filled"></i></small>
-            <h4>Amazing experience for my business trip</h4>
-            <p>Contact Mansions luxury charter brokers today to begin building your superyacht holiday, making your wildest dreams come true.</p>
-            <a href="#" class="custom-button light">Contact us</a>
+        <section class="content-section " style="padding: 50px;
+        margin: 50px;" >
+          <div class="container">
+            <div class="row">
+              <div class="col"><strong style="color: var(--mansions-gold)">Cruising Area:</strong><h6>Mediterranean</h6></div>
+              <div class="col"><strong style="color:var(--mansions-gold)">Home Port:</strong><h6>Athens, Greece</h6></div>
+              <div class="w-100"></div>
+              <div class="col"><strong style="color:var(--mansions-gold)">Guests Cruising:</strong><h6>12</h6></div>
+              <div class="col"><strong style="color:var(--mansions-gold)">Guests Sleeping:</strong><h6>12</h6></div>
             </div>
-            <!-- end testimonial-box -->
-
-		  <div class="clearfix spacing-100"></div>
-		  <!-- end clearfix -->	  
+          </div>
+          <!-- end container --> 
+        </section>
+        <!-- end content-section -->
+		  <div class="col-12">
+		  	<div class="room-info-box" style="text-align: center;">
+			  <h6>Amenities</h6>
+				<p>Oko kuće nalazi se privatni vrt s bazenom, maslinama i velikom terasom s ležaljkama i roštiljem.  <br>
+          Opustite se i zaronite u veliki bazen gdje i najmlađi mogu uživati ​​u plitkom dijelu namijenjenom djeci. 
+          Povrh toga, najmlađi se mogu zabaviti igrajući se na trampolinu u vrtu ili zaviriti u igraonicu u podrumu kuće.<br>
+          U vlastitoj igraonici možete igrati biljar, stolni tenis i stolni nogomet koliko god želite. 
+          Kuća je podijeljena na tri etaže i može smjestiti do 12 osoba u šest prostranih spavaćih soba, svaka s vlastitom kupaonicom.<br>
+          Na prvom katu kuće ulazi se u moderan i prostran dnevni boravak s blagovaonicom i potpuno opremljenom kuhinjom iz koje je moguće 
+          pristupiti predivnom velikom balkonu sa stolom i stolicama koje mogu će poslužiti za večeru na otvorenom. <br>
+          S balkona možete uživati ​​u otvorenom pogledu na more i otočje Brijuni. Želite li provesti vrijeme izvan vile, 
+          savjetujemo vam da posjetite obližnju Fažanu ili Peroj i posjetite njihove prekrasne plaže, za samo 10-ak minuta vožnje.<br>
+          Villa Old Olive I pružit će vam nezaboravan i luksuzan odmor na zapadnoj obali Istre. 
+          Iskoristite ovu priliku da uživate u Hrvatskoj s obitelji i prijateljima i rezervirajte odmor iz snova! <br>
+</p>
+			  </div>
+			  <!-- end room-info-box -->
+		  	<div class="room-info-box">
+			  <h6>Facilities</h6>
+				<ul>
+				<li><figure><img src="images/icon01.png" alt=""></figure><b>Type</b><span>6 Bedroom | 9 Bathroom</span></li>
+				<li><figure><img src="images/icon02.png" alt=""></figure><b>Room services</b><span>Upon request</span></li>
+				<li><figure><img src="images/icon03.png" alt=""></figure><b>Parking</b><span>3 car parking spots</span></li>
+					<li><figure><img src="images/icon04.png" alt=""></figure><b>Private pool</b><span></span></li>
+					<li><figure><img src="images/icon05.png" alt=""></figure><b>Dining</b><span>Full equiped kitchen</span></li>
+					<li><figure><img src="images/icon06.png" alt=""></figure><b>In room entertainment</b><span>TV, Air Conditioner</span></li>
+          <li><figure><img src="images/icon07.png" alt=""></figure><b>Pool | Table tennis | Table football</b></li>
+				</ul>
+			  </div>
+			  <!-- end room-info-box -->
+		  </div>
+		  <!-- end col-12 -->
       </div>
-      <!-- end row --> 
-    </div>
-    <!-- end container --> 
-  </section>
-  <section class="content-section">
-    <div class="container">
-      <div class="row-yachts justify-content-center">
-		 <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/Optasia-yacht-atalanta-golden-yachts-2.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html">O'PTASIA <br>
-                       </a></h5>
-                      <span>11 Cabins | 12 Guests | 26 Crew</span> <small>ATALANTA GOLDEN YACHTS AE</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		 <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/charter-love-story.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html"> LOVE STORY <br>
-                        </a></h5>
-                      <span>6 Cabins | 12 Guests | 7 Crew</span> <small>CUSTOM MADE 43M MOTOR SAILER</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		 <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/rarity-rossinavi.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html"> RARITY<br>
-                        </a></h5>
-                      <span>6 Cabins | 12 Guests | 12 Crew</span> <small>ROSSINAVI 55M</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		   <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/anthea.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html"> ANTHEA  <br>
-                        </h5></a>
-                      <span>10 Cabins | 20 Guests | 11 Crew</span> <small>CUSTOM MADE 52M MOTOR YACHT</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		 <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/sunseeker.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html"> BABY I <br>
-                        </a></h5>
-                      <span>4 Cabins | 8 Guests | 5 Crew</span> <small>SUNSEEKER YACHT 105</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		 <div class="yacht-single">
-		  <div class="meeting-event-box">
-                    <figure class="reveal-effect"> <img src="yachts/img/spice-of-life.jpg" alt="Image"> </figure>
-                    <div class="content">
-                      <h5><a href="yacht-single.html">SPICE OF LIFE II <br>
-                       </a></h5>
-                      <span>3 Cabins | 6 Guests | 2 Crew</span> <small>PRINCESS V 65</small> </div>
-                    <!-- end content --> 
-                  </div>
-			 <!-- end meeting-event-box -->
-		  </div>
-		  <!-- end col-4 -->
-		</div>
       <!-- end row --> 
     </div>
     <!-- end container --> 
   </section>
   <!-- end content-section -->
 
+  <div class="mapouter">
+    <div class="gmap_canvas">
+      <iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Mukalba%2090,%2052203,%20Medulin&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://getasearch.com/fmovies"></a><br>
+      <style>.mapouter{position:relative;text-align:right;height:500px;width:100%;}</style>
+      <a href="https://www.embedgooglemap.net">add google map to website</a>
+    <style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:100%;}</style>
+  </div>
+</div>
+
+	<section class="content-section">
+    <div class="container">
+      <div class="row">
+		  <div class="col-12">
+	<div class="room-info-box">
+			  <h6>Useful Informations</h6>
+				<ul>
+				<li><b>Check-in	</b><span>From 14:00 hours</span></li>
+				<li><b>Check-out	</b><span>Until 10:30 hours</span></li>
+				<li><b>Important information	</b><span>The price shown is based on the occupancy and dates you have searched for. Prices and availability are subject to change based on the arrival date, number of nights and occupancy searched for. All prices are inclusive of all local taxes.</span></li>
+				<li><b>Pets</b><span>Pets are not allowed</span></li>
+        <li><b>Cleaning</b><span>250€ Paying at arrival</span></li>
+        <li><b>Deposit</b><span>800€ required and paying at arrival and would be given back at leaving</span></li>
+        <li><b>Beding and towels are changing once a week</b><span></span></li>
+				</ul>
+			  </div>
+			  <!-- end room-info-box -->
+		  </div>
+		  <!-- end col-12 -->
+      </div>
+      <!-- end row --> 
+    </div>
+    <!-- end container --> 
+  </section>
+  <!-- end content-section -->
+
+  
   <!-- PAGE-END LOGO -->
   <section class="page-end">
     <div class="break-logo">
